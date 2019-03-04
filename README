@@ -1,0 +1,10 @@
+colorprompt (92user-color.sh] is a bash profile extension 
+to color your user prompt appropriately.
+It will make regular logins green and root logins red.
+
+92user-color-clock.sh will also put the clock timestamp at the front of the prompt.
+It will show the time when the previous command was completed. Usefull for commands that take
+some time to complete, and give you an idea of how long ago you did something in the terminal.
+Not everyone want the time in their prompt, so I put this in a separate script.
+
+Put one of these scripts in /etc/profile.d/ and it should work.
