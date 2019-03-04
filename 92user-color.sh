@@ -6,7 +6,7 @@
 if [ -n "$PS1" ]; then
 
   # This line duplicated from /etc/bashrc
-  [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \W]\\$ "
+  [ "$PS1" = "\\s-\\v\\\$ " ] && PS1="[\u@\h \w]\\$ "
 
   # Prepare our reset escape seq
   psclear=$'\e[0m'
